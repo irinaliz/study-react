@@ -1,9 +1,14 @@
+import React  from "react";
+import MyComponent from "./MyComponent";
 
-function App() {
-  return (
-    <div className="App">
-    </div>
-  );
+class App extends React.Component {
+  
+  render() {
+    return(
+      <MyComponent name="test"/>
+    )
+  }
 }
+
 
 export default App;
